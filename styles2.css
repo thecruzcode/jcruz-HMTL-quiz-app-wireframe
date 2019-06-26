@@ -65,9 +65,14 @@ main {
 
 h2 {
     position: absolute;
-    left: 116px;
-    top: 167px;
+    left: 260px;
+    top: 54px;
     font-size: 25px;
+}
+
+.counter {
+    position: relative;
+    top: 27px;
 }
 
 header {
@@ -81,7 +86,7 @@ header {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 227px;
+    top: 359px;
     left: 188px;
     height: 60px;
     width: 450px;
@@ -90,8 +95,8 @@ header {
 
 .textButton {
     position: absolute;
-    top: 14px;
-    font-size: 28px;
+    top: 17px;
+    font-size: 23px;
 }
 
 .questionList {
@@ -100,7 +105,6 @@ header {
     top: 165px;
     line-height: 2;
 }
-
 .homePage {
     position: relative;
     right: -69px;
