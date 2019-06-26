@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: auto;
+    height: auto;
+}
+
+.mainTitle{
+    font-family: 'Rubik Mono One', sans-serif;
+    position: relative;
+    top: 30px;
+}
+
+.appLogo {
+    height: 80px;
+    width: 80px;
+    background: gray;
+    
+}
+
+.mainTitle, .appLogo {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+header .imgPlaceHolder {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 0px;
+    top: 24px;
+
+}
+
+.questionCounter {
+    position: relative;
+    left: 300px;
+    margin-top: 20px;
+    text-align: center;
+    height: 80px;
+    width: 800px;
+    background: gray;
+}
+
+main {
+    height: 450px;
+    width: 800px;
+    background: gray;
+    margin-top: 25px;
+    position: relative;
+    left: 300px;
+}
+
+.choices {
+    position: absolute;
+    left: 263px;
+    top: 106px;
+    font-size: 23px;
+}
+
+h2 {
+    position: absolute;
+    left: 260px;
+    top: 54px;
+    font-size: 25px;
+}
+
+.counter {
+    position: relative;
+    top: 27px;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    left: 130px;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 359px;
+    left: 188px;
+    height: 60px;
+    width: 450px;
+    background: lightgray;
+}
+
+.textButton {
+    position: absolute;
+    top: 17px;
+    font-size: 23px;
+}
+
+.questionList {
+    position: absolute;
+    left: 267px;
+    top: 165px;
+    line-height: 2;
+}
